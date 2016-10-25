@@ -1,3 +1,12 @@
 body {
   padding-top: 61px;  /* Move body of page below navbar. */
 }
+
+.ui.top.fixed.borderless.inverted.menu {
+  background-color: darkgreen;
+}
+
+.ui.my.middle.aligned.grid.container {
+  margin: 0;
+  padding: 0;
+}

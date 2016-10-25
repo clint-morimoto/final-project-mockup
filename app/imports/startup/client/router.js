@@ -34,3 +34,17 @@ FlowRouter.notFound = {
     BlazeLayout.render('App_Body', { main: 'App_Not_Found' });
   },
 };
+
+FlowRouter.route('/about', {
+  name: 'About_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'About_Page' });
+  },
+});
+
+// FlowRouter.route('/add-contact', {
+//   name: 'Add_Contact_Page',
+//   action() {
+//     BlazeLayout.render('App_Body', { main: 'Add_Contact_Page' });
+//   },
+// });
