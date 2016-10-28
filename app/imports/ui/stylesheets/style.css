@@ -1,5 +1,18 @@
+@font-face {
+  font-family: 'Press Start 2P', cursive;
+  src: url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+}
+
 body {
+  font-size: 80%;
+  background-color: black;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
   padding-top: 61px;  /* Move body of page below navbar. */
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P';
 }
 
 .ui.top.fixed.borderless.inverted.menu {
@@ -9,4 +22,18 @@ body {
 .ui.my.middle.aligned.grid.container {
   margin: 0;
   padding: 0;
+}
+
+#login-buttons a, .accounts-dialog a {
+  color: white;
+}
+
+.ui.my.selectable.inverted.celled.padded.table {
+  color: white;
+  background-color: rgb(5, 90, 25);
+}
+
+.my.content, .my.sub.header {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
 }

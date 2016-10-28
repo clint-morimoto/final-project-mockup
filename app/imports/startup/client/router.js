@@ -42,6 +42,27 @@ FlowRouter.route('/about', {
   },
 });
 
+FlowRouter.route('/food-list', {
+  name: 'Food_List_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Food_List_Page' });
+  },
+});
+
+FlowRouter.route('/food-item', {
+  name: 'Food_Item_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Food_Item_Page' });
+  },
+});
+
+FlowRouter.route('/food-hunt', {
+  name: 'Food_Hunt_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Food_Hunt_Page' });
+  },
+});
+
 // FlowRouter.route('/add-contact', {
 //   name: 'Add_Contact_Page',
 //   action() {
