@@ -11,7 +11,7 @@ body {
   padding-top: 61px;  /* Move body of page below navbar. */
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Press Start 2P';
 }
 
@@ -30,10 +30,25 @@ h1, h2, h3 {
 
 .ui.my.selectable.inverted.celled.padded.table {
   color: white;
-  background-color: rgb(5, 90, 25);
+  background: darkgreen;
+  background: -webkit-linear-gradient(darkgreen, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(darkgreen, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(darkgreen, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(darkgreen, black); /* Standard syntax (must be last) */
+  border: solid white;
 }
 
 .my.content, .my.sub.header {
   color: white;
   font-family: 'Press Start 2P', cursive;
+}
+
+.my.twelve.wide.column {
+  color: white;
+  background: darkgreen;
+  background: -webkit-linear-gradient(darkgreen, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(darkgreen, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(darkgreen, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(darkgreen, black); /* Standard syntax (must be last) */
+  border: solid white;
 }
